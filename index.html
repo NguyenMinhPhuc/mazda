@@ -1,0 +1,2028 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mazda 3 - Tuyệt Tác Thiết Kế & Cảm Hứng Lái | Báo Giá & Ưu Đãi</title>
+  <meta name="description" content="Khám phá Mazda 3 với thiết kế KODO đỉnh cao, công nghệ an toàn i-Activesense và cảm giác lái Jinba-Ittai. Nhận ưu đãi phí trước bạ và trả góp chỉ từ 6.5 triệu/tháng.">
+  
+  <script>
+    // Kiểm tra và áp dụng theme trước khi render trang để tránh chớp nháy (FOUC)
+    if (localStorage.getItem('mazda_theme') === 'light') {
+      document.documentElement.classList.remove('dark');
+    } else {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Montserrat & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              red: '#990000',
+              redDark: '#700000',
+              redLight: '#c41212',
+              silver: '#E5E7EB',
+              dark: '#0B0D11',
+              darkLight: '#161922',
+              charcoal: '#1F2430',
+              gold: '#D4AF37'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Chuyển đổi mượt mà giữa các theme */
+    html {
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Custom Luxury Styling cho Dark Mode */
+    html.dark .hero-glow {
+      background: radial-gradient(circle at 50% 30%, rgba(153, 0, 0, 0.25) 0%, rgba(11, 13, 17, 0.95) 75%);
+    }
+    html.dark .text-metallic {
+      background: linear-gradient(180deg, #FFFFFF 0%, #A0A5B5 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Custom Luxury Styling cho Light Mode (Snowflake Pearl White Theme) */
+    html:not(.dark) body {
+      background-color: #F8FAFC !important;
+      color: #334155 !important;
+    }
+    html:not(.dark) .hero-glow {
+      background: radial-gradient(circle at 50% 30%, rgba(153, 0, 0, 0.08) 0%, rgba(248, 250, 252, 1) 75%);
+    }
+    html:not(.dark) .text-metallic {
+      background: linear-gradient(180deg, #0F172A 0%, #334155 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    html:not(.dark) header {
+      background-color: rgba(255, 255, 255, 0.9) !important;
+      border-color: #E2E8F0 !important;
+      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.04);
+    }
+    html:not(.dark) header nav a {
+      color: #475569 !important;
+    }
+    html:not(.dark) header nav a:hover {
+      color: #990000 !important;
+    }
+    html:not(.dark) header .border-slate-300 {
+      border-color: #0F172A !important;
+      color: #0F172A !important;
+    }
+    html:not(.dark) header span.text-white {
+      color: #0F172A !important;
+    }
+    html:not(.dark) #social-proof {
+      background-color: #FFFFFF !important;
+      border-color: #E2E8F0 !important;
+    }
+    html:not(.dark) .bg-brand-darkLight {
+      background-color: #F1F5F9 !important;
+      border-color: #E2E8F0 !important;
+    }
+    html:not(.dark) .bg-brand-dark, 
+    html:not(.dark) .bg-brand-dark\/60,
+    html:not(.dark) .bg-brand-dark\/70,
+    html:not(.dark) .bg-brand-dark\/80,
+    html:not(.dark) .bg-brand-dark\/85,
+    html:not(.dark) .bg-brand-dark\/90 {
+      background-color: #FFFFFF !important;
+      border-color: #E2E8F0 !important;
+      box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.05);
+    }
+    html:not(.dark) .bg-brand-charcoal,
+    html:not(.dark) .bg-brand-charcoal\/80 {
+      background-color: #F8FAFC !important;
+      border-color: #E2E8F0 !important;
+    }
+    html:not(.dark) .border-white\/10,
+    html:not(.dark) .border-white\/15,
+    html:not(.dark) .border-white\/20,
+    html:not(.dark) .border-white\/5 {
+      border-color: #E2E8F0 !important;
+    }
+    html:not(.dark) .text-white {
+      color: #0F172A !important;
+    }
+    html:not(.dark) .text-slate-200,
+    html:not(.dark) .text-slate-300 {
+      color: #334155 !important;
+    }
+    html:not(.dark) .text-gray-300,
+    html:not(.dark) .text-gray-400 {
+      color: #64748B !important;
+    }
+    html:not(.dark) .bg-white\/5,
+    html:not(.dark) .bg-white\/10 {
+      background-color: #F1F5F9 !important;
+      color: #334155 !important;
+      border-color: #E2E8F0 !important;
+    }
+    html:not(.dark) #pricing {
+      background: linear-gradient(to bottom, #FFFFFF 0%, #F8FAFC 50%, #F1F5F9 100%) !important;
+      border-color: #E2E8F0 !important;
+    }
+    html:not(.dark) #pricing .bg-black\/50 {
+      background-color: #FFFFFF !important;
+      border-color: #CBD5E1 !important;
+      color: #0F172A !important;
+    }
+    html:not(.dark) input,
+    html:not(.dark) select {
+      background-color: #FFFFFF !important;
+      color: #0F172A !important;
+      border-color: #CBD5E1 !important;
+    }
+    html:not(.dark) footer {
+      background-color: #0F172A !important;
+      color: #94A3B8 !important;
+    }
+    html:not(.dark) footer .text-white {
+      color: #F8FAFC !important;
+    }
+    html:not(.dark) footer .text-gray-400 {
+      color: #94A3B8 !important;
+    }
+    /* Luôn giữ nút đỏ, bong bóng hotline & zalo chữ trắng */
+    .bg-brand-red,
+    .bg-brand-redLight,
+    button[type="submit"],
+    aside[aria-label="Hotline Liên Hệ"] *,
+    aside[aria-label="Zalo Tư Vấn"] * {
+      color: #FFFFFF !important;
+    }
+
+    /* Thanh điều hướng nổi trên mobile cho Light Mode */
+    html:not(.dark) .fixed.bottom-0 {
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      border-color: #E2E8F0 !important;
+    }
+    html:not(.dark) .fixed.bottom-0 button,
+    html:not(.dark) .fixed.bottom-0 a.rounded-xl.bg-white\/10 {
+      background-color: #F1F5F9 !important;
+      color: #0F172A !important;
+    }
+
+    /* Toast thông báo đơn hàng cho Light Mode */
+    html:not(.dark) #sales-toast > div {
+      background-color: rgba(255, 255, 255, 0.98) !important;
+      border-color: #E2E8F0 !important;
+      box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.12), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    }
+    html:not(.dark) #sales-toast #toast-buyer {
+      color: #0F172A !important;
+    }
+    html:not(.dark) #sales-toast #toast-action {
+      color: #334155 !important;
+    }
+    html:not(.dark) #sales-toast #toast-city,
+    html:not(.dark) #sales-toast #toast-time {
+      color: #64748B !important;
+    }
+
+    /* Modal dialogs cho Light Mode */
+    html:not(.dark) #lead-success-modal > div,
+    html:not(.dark) #google-sheet-modal > div,
+    html:not(.dark) #leads-view-modal > div {
+      background-color: #FFFFFF !important;
+      border-color: #E2E8F0 !important;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+      color: #0F172A !important;
+    }
+    html:not(.dark) #leads-view-modal table th {
+      background-color: #F8FAFC !important;
+      color: #475569 !important;
+    }
+    html:not(.dark) #leads-view-modal table td {
+      border-color: #E2E8F0 !important;
+    }
+
+    .red-crystal-gradient {
+      background: linear-gradient(135deg, #ba0c2f 0%, #800000 50%, #4a0000 100%);
+    }
+    .gold-gradient {
+      background: linear-gradient(135deg, #F3E7BE 0%, #D4AF37 50%, #997A15 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .blur-blob {
+      filter: blur(80px);
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor-blink {
+      animation: blink 0.9s infinite;
+    }
+
+    /* Hiệu ứng rung lắc nhẹ cho biểu tượng Hotline */
+    @keyframes phone-shake {
+      0%, 100% { transform: rotate(0deg); }
+      10%, 30%, 50% { transform: rotate(-14deg); }
+      20%, 40%, 60% { transform: rotate(14deg); }
+      70% { transform: rotate(0deg); }
+    }
+    .animate-phone-shake {
+      animation: phone-shake 2.2s ease-in-out infinite;
+    }
+
+    /* Hiệu ứng 3D Flip Card */
+    .flip-card {
+      perspective: 1000px;
+      min-height: 185px;
+    }
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+      cursor: pointer;
+    }
+    .flip-card:hover .flip-card-inner,
+    .flip-card.flipped .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.25rem 1rem;
+    }
+    .flip-card-front {
+      z-index: 2;
+      transform: rotateY(0deg);
+    }
+    .flip-card-back {
+      transform: rotateY(180deg);
+      z-index: 1;
+    }
+    html:not(.dark) .flip-card-front,
+    html:not(.dark) .flip-card-back {
+      background-color: #FFFFFF !important;
+      border-color: #E2E8F0 !important;
+      box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body class="bg-brand-dark text-slate-200 font-sans selection:bg-brand-red selection:text-white antialiased transition-colors duration-300">
+
+  <!-- ================= TOP NAV BAR ================= -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-brand-dark/80 backdrop-blur-md border-b border-white/10 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <!-- Mazda Logo Style Badge -->
+        <div class="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center font-bold tracking-widest text-slate-100 text-xs">
+          M
+        </div>
+        <div class="flex flex-col">
+          <span class="text-xl font-extrabold tracking-widest uppercase text-white font-serif">MAZDA 3</span>
+          <span class="text-[10px] tracking-widest text-gray-400 uppercase -mt-1">Feel Alive</span>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide">
+        <a href="#hero" class="text-gray-300 hover:text-white transition">Tổng Quan</a>
+        <a href="#social-proof" class="text-gray-300 hover:text-white transition">Giải Thưởng</a>
+        <a href="#features" class="text-gray-300 hover:text-white transition">Nghệ Thuật KODO</a>
+        <a href="#safety" class="text-gray-300 hover:text-white transition">i-Activesense</a>
+        <a href="#pricing" class="text-gray-300 hover:text-white transition">Báo Giá & Ưu Đãi</a>
+      </nav>
+
+      <div class="flex items-center space-x-3">
+        <!-- Theme Toggle Button (Dark / Light Mode) -->
+        <button id="theme-toggle" type="button" title="Chuyển chế độ Sáng / Tối" aria-label="Toggle Theme" class="w-10 h-10 rounded-full flex items-center justify-center border border-white/10 dark:border-white/15 bg-white/5 dark:bg-white/10 hover:bg-white/20 transition-all duration-200 focus:outline-none">
+          <i id="theme-icon-sun" class="fa-solid fa-sun text-amber-400 text-sm hidden"></i>
+          <i id="theme-icon-moon" class="fa-solid fa-moon text-slate-300 text-sm"></i>
+        </button>
+
+        <a href="tel:0911132826" class="hidden sm:flex items-center text-sm font-semibold text-gray-300 hover:text-brand-redLight transition">
+          <i class="fa-solid fa-phone-volume text-brand-red mr-2"></i> 0911 132 826
+        </a>
+        <a href="#lead-form" class="px-5 py-2.5 rounded-full text-xs uppercase font-bold tracking-wider bg-brand-red hover:bg-brand-redLight text-white shadow-lg shadow-brand-red/30 transition-all duration-200 transform hover:-translate-y-0.5">
+          Nhận Báo Giá
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= 1. HERO SECTION (ATTENTION) ================= -->
+  <section id="hero" class="relative min-h-screen pt-28 pb-16 flex items-center justify-center overflow-hidden">
+    <!-- Background Gradient & Visual Accents -->
+    <div class="absolute inset-0 hero-glow z-0"></div>
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-red/20 rounded-full blur-blob pointer-events-none"></div>
+    <div class="absolute bottom-10 right-0 w-[500px] h-[500px] bg-brand-red/10 rounded-full blur-blob pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <!-- 2-Column Layout: Left Text & Badges, Right Image -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center pt-4">
+        
+        <!-- CỘT TRÁI: NỘI DUNG, BADGE TÍNH NĂNG VÀ CTA -->
+        <div class="lg:col-span-7 space-y-6 text-left" data-aos="fade-right" data-aos-duration="900">
+          
+          <!-- Category & Urgency Badges Row -->
+          <div class="flex flex-wrap items-center gap-2.5">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
+              <span class="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span>
+              <span class="text-xs uppercase tracking-widest text-gray-300 font-semibold">Sedan & Sport Hạng C Cao Cấp</span>
+            </div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-brand-red/20 border border-brand-red/40 text-brand-redLight text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-award text-brand-gold"></i>
+              <span>World Car Design Winner</span>
+            </div>
+          </div>
+
+          <!-- Headline chính với Typing Effect -->
+          <h1 class="text-3xl sm:text-5xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-[1.12]">
+            <span class="text-metallic block">MAZDA 3: TUYỆT TÁC THIẾT KẾ</span>
+            <span class="text-brand-redLight font-serif italic text-2xl sm:text-4xl lg:text-4xl xl:text-5xl inline-flex items-center min-h-[1.3em]">
+              <span id="typing-text"></span>
+              <span id="typing-cursor" class="inline-block w-[3px] sm:w-[4px] h-[0.85em] bg-brand-redLight ml-1.5 align-middle cursor-blink"></span>
+            </span>
+          </h1>
+
+          <!-- Sub-headline -->
+          <p class="text-sm sm:text-base lg:text-lg text-slate-300 leading-relaxed font-light max-w-xl">
+            Chạm đến đỉnh cao thẩm mỹ Nhật Bản với ngôn ngữ <strong class="text-white font-medium">KODO thế hệ mới</strong>, hòa hợp tuyệt đối cùng cảm giác lái <strong class="text-white font-medium">Jinba-Ittai</strong> và hệ thống an toàn chủ động thông minh <strong class="text-white font-medium">i-Activesense</strong>.
+          </p>
+
+          <!-- BADGES NHẤN MẠNH TÍNH NĂNG NỔI BẬT (Feature Badges Grid) -->
+          <div class="space-y-2 pt-1">
+            <p class="text-[11px] font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-sparkles text-brand-gold text-xs"></i> Tính năng & Công nghệ đột phá:
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <!-- Feature Badge 1 -->
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-gray-200 transition">
+                <i class="fa-solid fa-shield-halved text-brand-red"></i>
+                <span><strong>i-Activesense:</strong> Phanh thông minh SBS</span>
+              </span>
+
+              <!-- Feature Badge 2 -->
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-gray-200 transition">
+                <i class="fa-solid fa-route text-blue-400"></i>
+                <span><strong>MRCC:</strong> Ga tự động thích ứng Stop & Go</span>
+              </span>
+
+              <!-- Feature Badge 3 -->
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-gray-200 transition">
+                <i class="fa-solid fa-car-side text-emerald-400"></i>
+                <span><strong>GVC Plus:</strong> Kiểm soát gia tốc êm ái</span>
+              </span>
+
+              <!-- Feature Badge 4 -->
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-gray-200 transition">
+                <i class="fa-solid fa-gauge text-purple-400"></i>
+                <span><strong>SkyActiv-G 1.5L:</strong> Chỉ 5.8L / 100km</span>
+              </span>
+
+              <!-- Feature Badge 5 -->
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-gray-200 transition">
+                <i class="fa-solid fa-desktop text-amber-400"></i>
+                <span><strong>HUD & 8.8":</strong> Màn hình kính lái sắc nét</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- CTA Buttons Group -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
+            <a href="#lead-form" class="px-7 py-3.5 rounded-full bg-brand-red hover:bg-brand-redLight text-white font-bold text-xs sm:text-sm tracking-wider uppercase shadow-xl shadow-brand-red/40 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2.5 text-center">
+              <i class="fa-solid fa-steering-wheel"></i>
+              <span>Đăng Ký Lái Thử Trải Nghiệm</span>
+            </a>
+            <a href="#pricing" class="px-7 py-3.5 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm tracking-wider uppercase border border-white/20 backdrop-blur-md transition-all duration-300 flex items-center justify-center gap-2 text-center">
+              <i class="fa-solid fa-file-invoice-dollar"></i>
+              <span>Nhận Báo Giá Lăn Bánh</span>
+            </a>
+          </div>
+
+          <!-- Quick Trust Meta -->
+          <div class="flex flex-wrap items-center gap-6 pt-3 border-t border-white/10 text-xs text-gray-400 font-medium">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-shield-check text-brand-red text-sm"></i>
+              <span>Bảo hành chính hãng <strong>5 năm / 150.000 km</strong></span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i>
+              <span>Hỗ trợ trả góp chỉ từ <strong>6.5 tr/tháng</strong></span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CỘT PHẢI: HÌNH ẢNH XE KÈM FLOATING BADGES NHẤN MẠNH TÍNH NĂNG -->
+        <div class="lg:col-span-5 relative mt-6 lg:mt-0" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <div class="relative rounded-2xl overflow-hidden border border-white/15 shadow-2xl bg-gradient-to-b from-brand-charcoal to-brand-dark group">
+            
+            <!-- Hero Car Image -->
+            <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1600&q=80" 
+                 alt="Mazda 3 Đỏ Soul Red Crystal KODO Design" 
+                 class="w-full h-[360px] sm:h-[460px] lg:h-[490px] object-cover object-center transform group-hover:scale-105 transition duration-700">
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-black/30"></div>
+
+            <!-- FLOATING BADGE 1 (Góc trên bên trái): Sơn Takuminuri -->
+            <div class="absolute top-4 left-4 z-20 bg-brand-dark/85 backdrop-blur-md px-3.5 py-2 rounded-xl border border-white/15 shadow-lg flex items-center gap-2.5">
+              <div class="w-8 h-8 rounded-lg bg-brand-red/30 flex items-center justify-center text-brand-red">
+                <i class="fa-solid fa-palette text-xs"></i>
+              </div>
+              <div>
+                <p class="text-[10px] uppercase font-bold text-gray-400 leading-none">Màu Độc Bản</p>
+                <p class="text-xs font-bold text-white mt-0.5">Soul Red Crystal 3 Lớp</p>
+              </div>
+            </div>
+
+            <!-- FLOATING BADGE 2 (Góc trên bên phải): Chuẩn An Toàn -->
+            <div class="absolute top-4 right-4 z-20 bg-brand-dark/85 backdrop-blur-md px-3.5 py-2 rounded-xl border border-white/15 shadow-lg flex items-center gap-2">
+              <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></div>
+              <div>
+                <p class="text-[10px] uppercase font-bold text-emerald-400 leading-none">Top Safety Pick+</p>
+                <p class="text-xs font-bold text-white mt-0.5">5 Sao An Toàn IIHS</p>
+              </div>
+            </div>
+
+            <!-- FLOATING BADGE 3 (Giữa / Góc dưới bên phải): GVC Plus -->
+            <div class="absolute bottom-24 right-4 z-20 bg-brand-dark/85 backdrop-blur-md px-3 py-2 rounded-xl border border-white/15 shadow-lg hidden sm:flex items-center gap-2">
+              <i class="fa-solid fa-compass-drafting text-brand-gold text-xs"></i>
+              <span class="text-xs font-semibold text-gray-200">G-Vectoring Control Plus</span>
+            </div>
+
+            <!-- Bottom Floating Card: Thông số nhanh & Tình trạng xe -->
+            <div class="absolute bottom-4 left-4 right-4 z-20 p-3.5 sm:p-4 rounded-xl bg-brand-dark/85 backdrop-blur-md border border-white/15 shadow-xl">
+              <div class="flex items-center justify-between text-xs mb-2 pb-2 border-b border-white/10">
+                <div class="flex items-center gap-2">
+                  <span class="text-white font-bold">Mazda 3 All-New</span>
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-brand-red text-white font-semibold">Giao Xe Ngay</span>
+                </div>
+                <span class="text-brand-gold font-bold">Từ 579 Triệu VNĐ</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2 text-center text-[11px]">
+                <div class="p-1.5 rounded bg-white/5 border border-white/5">
+                  <span class="block text-gray-400 text-[10px]">Động cơ</span>
+                  <strong class="text-white">1.5L SkyActiv</strong>
+                </div>
+                <div class="p-1.5 rounded bg-white/5 border border-white/5">
+                  <span class="block text-gray-400 text-[10px]">Tiêu hao</span>
+                  <strong class="text-emerald-400">5.8L/100km</strong>
+                </div>
+                <div class="p-1.5 rounded bg-white/5 border border-white/5">
+                  <span class="block text-gray-400 text-[10px]">Túi khí</span>
+                  <strong class="text-white">7 Túi khí chuẩn</strong>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 2. SOCIAL PROOF (TRUST) ================= -->
+  <section id="social-proof" class="py-20 bg-brand-darkLight border-y border-white/10 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Title -->
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+        <p class="text-xs font-bold uppercase tracking-widest text-brand-red mb-2">Chứng thực uy tín toàn cầu</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Được Tôn Vinh Bởi Chuyên Gia, Được Yêu Thích Bởi Hàng Triệu Khách Hàng</h2>
+        <p class="text-gray-400 mt-3 text-sm sm:text-base">Không chỉ là một chiếc xe, Mazda 3 là chuẩn mực biểu tượng vượt qua giới hạn của phân khúc C.</p>
+      </div>
+
+      <!-- Big Numbers Grid với Hiệu ứng 3D Flip Card -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-20 text-center">
+        
+        <!-- CARD 1: 6.000.000+ -->
+        <div class="flip-card group" data-aos="fade-up" data-aos-delay="100" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <!-- Mặt trước (Front) -->
+            <div class="flip-card-front bg-brand-dark/70 border border-white/10 group-hover:border-brand-red/50 transition">
+              <div class="text-2xl sm:text-3xl lg:text-[2rem] xl:text-4xl font-black text-brand-redLight mb-1.5 tracking-tight flex items-center justify-center whitespace-nowrap">
+                <span>6.000.000</span><span class="text-xl sm:text-2xl font-bold ml-0.5 text-brand-redLight">+</span>
+              </div>
+              <p class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-gray-300">Xe lăn bánh toàn cầu</p>
+              <span class="text-xs text-gray-400 mt-1 block">Hơn 130 quốc gia tin dùng</span>
+              <span class="text-[10px] text-gray-500 mt-2.5 flex items-center gap-1 opacity-60 group-hover:opacity-100 transition"><i class="fa-solid fa-repeat text-[9px] text-brand-red"></i> Chạm / Rê để lật thẻ</span>
+            </div>
+            <!-- Mặt sau (Back) -->
+            <div class="flip-card-back bg-brand-charcoal border border-brand-red/50 shadow-2xl p-4">
+              <div class="w-8 h-8 rounded-full bg-brand-red/20 text-brand-red flex items-center justify-center mb-2 text-sm">
+                <i class="fa-solid fa-earth-americas"></i>
+              </div>
+              <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-1">Dấu Ấn Toàn Cầu</h4>
+              <p class="text-[11px] text-gray-300 leading-snug">Hơn 20 năm khẳng định vị thế tại Mỹ, Châu Âu & Châu Á với chất lượng bền bỉ vượt thời gian.</p>
+              <span class="mt-2 text-[10px] font-semibold text-brand-redLight px-2 py-0.5 rounded bg-brand-red/10 border border-brand-red/20">Top 10 Xe Bán Chạy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: TOP 1 -->
+        <div class="flip-card group" data-aos="fade-up" data-aos-delay="200" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <!-- Mặt trước (Front) -->
+            <div class="flip-card-front bg-brand-dark/70 border border-white/10 group-hover:border-brand-red/50 transition">
+              <div class="text-2xl sm:text-3xl lg:text-[2rem] xl:text-4xl font-black text-brand-gold mb-1.5 tracking-tight">TOP 1</div>
+              <p class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-gray-300">World Car Design</p>
+              <span class="text-xs text-gray-400 mt-1 block">Thiết kế xe đẹp nhất thế giới</span>
+              <span class="text-[10px] text-gray-500 mt-2.5 flex items-center gap-1 opacity-60 group-hover:opacity-100 transition"><i class="fa-solid fa-repeat text-[9px] text-brand-gold"></i> Chạm / Rê để lật thẻ</span>
+            </div>
+            <!-- Mặt sau (Back) -->
+            <div class="flip-card-back bg-brand-charcoal border border-brand-gold/50 shadow-2xl p-4">
+              <div class="w-8 h-8 rounded-full bg-amber-400/20 text-brand-gold flex items-center justify-center mb-2 text-sm">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-1">Kiệt Tác Thiết Kế</h4>
+              <p class="text-[11px] text-gray-300 leading-snug">Vượt qua hàng loạt đối thủ xe sang từ Đức để đoạt cúp thiết kế danh giá nhất thế giới (WCA).</p>
+              <span class="mt-2 text-[10px] font-semibold text-brand-gold px-2 py-0.5 rounded bg-amber-400/10 border border-amber-400/20">World Car Awards</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: 5 SAO -->
+        <div class="flip-card group" data-aos="fade-up" data-aos-delay="300" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <!-- Mặt trước (Front) -->
+            <div class="flip-card-front bg-brand-dark/70 border border-white/10 group-hover:border-brand-red/50 transition">
+              <div class="text-2xl sm:text-3xl lg:text-[2rem] xl:text-4xl font-black text-blue-400 mb-1.5 tracking-tight">5 SAO</div>
+              <p class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-gray-300">IIHS Top Safety Pick+</p>
+              <span class="text-xs text-gray-400 mt-1 block">Chuẩn an toàn Mỹ & Châu Âu</span>
+              <span class="text-[10px] text-gray-500 mt-2.5 flex items-center gap-1 opacity-60 group-hover:opacity-100 transition"><i class="fa-solid fa-repeat text-[9px] text-blue-400"></i> Chạm / Rê để lật thẻ</span>
+            </div>
+            <!-- Mặt sau (Back) -->
+            <div class="flip-card-back bg-brand-charcoal border border-blue-400/50 shadow-2xl p-4">
+              <div class="w-8 h-8 rounded-full bg-blue-500/20 text-blue-400 flex items-center justify-center mb-2 text-sm">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-1">Bảo Vệ Đa Lớp</h4>
+              <p class="text-[11px] text-gray-300 leading-snug">Khung thép cường lực SkyActiv-Body kèm 7 túi khí và gói i-Activesense bảo vệ 360 độ tối đa.</p>
+              <span class="mt-2 text-[10px] font-semibold text-blue-400 px-2 py-0.5 rounded bg-blue-500/10 border border-blue-500/20">Euro NCAP & IIHS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: 98.6% -->
+        <div class="flip-card group" data-aos="fade-up" data-aos-delay="400" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <!-- Mặt trước (Front) -->
+            <div class="flip-card-front bg-brand-dark/70 border border-white/10 group-hover:border-brand-red/50 transition">
+              <div class="text-2xl sm:text-3xl lg:text-[2rem] xl:text-4xl font-black text-emerald-400 mb-1.5 tracking-tight">98.6%</div>
+              <p class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-gray-300">Khách Hàng Hài Lòng</p>
+              <span class="text-xs text-gray-400 mt-1 block">Đánh giá 5 sao thẩm mỹ & lái</span>
+              <span class="text-[10px] text-gray-500 mt-2.5 flex items-center gap-1 opacity-60 group-hover:opacity-100 transition"><i class="fa-solid fa-repeat text-[9px] text-emerald-400"></i> Chạm / Rê để lật thẻ</span>
+            </div>
+            <!-- Mặt sau (Back) -->
+            <div class="flip-card-back bg-brand-charcoal border border-emerald-400/50 shadow-2xl p-4">
+              <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-2 text-sm">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-1">Sự Hài Lòng Tuyệt Đối</h4>
+              <p class="text-[11px] text-gray-300 leading-snug">Chủ xe ấn tượng mạnh với khả năng cách âm tĩnh lặng, vào cua mượt mà và tiết kiệm xăng từ 5.8L.</p>
+              <span class="mt-2 text-[10px] font-semibold text-emerald-400 px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20">Khảo Sát Thực Tế</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Testimonials Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Review 1 -->
+        <div class="p-8 rounded-2xl bg-brand-dark border border-white/10 hover:border-white/25 transition duration-300 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="150">
+          <div>
+            <div class="flex text-amber-400 text-sm mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-sm text-gray-300 italic leading-relaxed mb-6">
+              "Trước khi mua Mazda 3, tôi đã chạy thử cả Civic lẫn Altis. Nhưng bước vào khoang lái Mazda 3, độ hoàn thiện da và âm thanh cách âm ở một đẳng cấp hoàn toàn khác, hệt như một chiếc xe hạng sang của Đức. Vô-lăng chính xác từng mi-li-mét!"
+            </p>
+          </div>
+          <div class="flex items-center gap-4 pt-4 border-t border-white/10">
+            <div class="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white text-base">HL</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Anh Hoàng Long</h4>
+              <p class="text-xs text-gray-400">Doanh nhân tại TP. Hồ Chí Minh • Sở hữu Mazda 3 Premium</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="p-8 rounded-2xl bg-brand-dark border border-white/10 hover:border-white/25 transition duration-300 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+          <div>
+            <div class="flex text-amber-400 text-sm mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-sm text-gray-300 italic leading-relaxed mb-6">
+              "Là một kiến trúc sư, mắt thẩm mỹ của tôi rất khắt khe. Mazda 3 không lạm dụng những đường gân cơ bắp rẻ tiền mà dùng nghệ thuật ánh sáng phản chiếu uốn lượn trên thân xe. Mỗi sáng bước ra hầm xe nhìn Mazda 3 đều thấy tràn đầy cảm hứng!"
+            </p>
+          </div>
+          <div class="flex items-center gap-4 pt-4 border-t border-white/10">
+            <div class="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white text-base">MT</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Chị Minh Thư</h4>
+              <p class="text-xs text-gray-400">Kiến trúc sư tại Hà Nội • Sở hữu Mazda 3 Sport Luxury</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="p-8 rounded-2xl bg-brand-dark border border-white/10 hover:border-white/25 transition duration-300 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="450">
+          <div>
+            <div class="flex text-amber-400 text-sm mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-sm text-gray-300 italic leading-relaxed mb-6">
+              "Gói i-Activesense đã thực sự cứu gia đình tôi một pha va chạm nguy hiểm trên cao tốc Long Thành nhờ phanh tự động thông minh. Xe chạy đầm chắc, mức tiêu thụ đường trường chỉ 5.4L/100km, cực kỳ kinh tế và an tâm."
+            </p>
+          </div>
+          <div class="flex items-center gap-4 pt-4 border-t border-white/10">
+            <div class="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white text-base">QB</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Anh Quốc Bảo</h4>
+              <p class="text-xs text-gray-400">Giám đốc công nghệ tại Đà Nẵng • Sở hữu Mazda 3 1.5L Premium</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 3. FEATURES & BENEFITS (INTEREST & DESIRE) ================= -->
+  <section id="features" class="py-24 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-red">Giá Trị Cốt Lõi</span>
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2">Đẳng Cấp Đến Từ Tinh Hoa Chế Tác</h2>
+        <p class="text-gray-400 mt-4 text-base">Mỗi chi tiết trên Mazda 3 được tính toán tỉ mỉ xoay quanh con người, mang lại cảm xúc mãnh liệt trong từng hải trình.</p>
+      </div>
+
+      <!-- Feature Block 1: THIẾT KẾ KODO -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-28">
+        <div class="order-2 lg:order-1" data-aos="fade-right">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-brand-red/20 text-brand-redLight text-xs font-bold uppercase tracking-wider mb-4">
+            Triết lý nghệ thuật Nhật Bản
+          </div>
+          <h3 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ngoại Thất KODO: Linh Hồn Của Sự Chuyển Động</h3>
+          <p class="text-gray-300 leading-relaxed mb-6">
+            Lấy cảm hứng từ nét tối giản thanh lịch của nghệ thuật điêu khắc truyền thống, Mazda 3 lược bỏ hoàn toàn những đường gân dập nổi thô cứng, thay vào đó là bề mặt thân xe lượn sóng mềm mại có khả năng "chơi đùa cùng ánh sáng".
+          </p>
+          
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <div class="w-8 h-8 rounded-full bg-brand-red/20 text-brand-red flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fa-solid fa-check text-xs"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-semibold text-base">Cụm đèn LED Signature sắc sảo</h4>
+                <p class="text-gray-400 text-xs sm:text-sm">Tự động cân bằng góc chiếu, mô phỏng đôi mắt linh hồn dũng mãnh và hiện đại.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="w-8 h-8 rounded-full bg-brand-red/20 text-brand-red flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fa-solid fa-check text-xs"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-semibold text-base">Lưới tản nhiệt mở rộng dạng tổ ong đen bóng</h4>
+                <p class="text-gray-400 text-xs sm:text-sm">Cánh chim mạ chrome biểu tượng nối liền cụm đèn trước, kiến tạo diện mạo sang trọng cuốn hút.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="w-8 h-8 rounded-full bg-brand-red/20 text-brand-red flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fa-solid fa-check text-xs"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-semibold text-base">Tùy chọn Sedan thanh lịch hoặc Sport Hatchback cá tính</h4>
+                <p class="text-gray-400 text-xs sm:text-sm">Đa dạng phong cách, tối ưu khí động học giúp xe lướt đi êm ái xé gió.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="order-1 lg:order-2 relative" data-aos="fade-left">
+          <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80" 
+                 alt="Thiết kế ngoại thất KODO Mazda 3" 
+                 class="w-full h-[380px] sm:h-[460px] object-cover group-hover:scale-105 transition duration-500">
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Block 2: CÔNG NGHỆ i-ACTIVESENSE -->
+      <div id="safety" class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-28">
+        <div class="relative" data-aos="fade-right">
+          <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
+            <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80" 
+                 alt="Hệ thống an toàn chủ động i-Activesense" 
+                 class="w-full h-[380px] sm:h-[460px] object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <!-- Tech Badge Floating -->
+          <div class="absolute -bottom-6 right-6 bg-brand-dark/90 backdrop-blur-md p-4 rounded-xl border border-white/15 shadow-xl hidden sm:block">
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-radar text-2xl text-brand-red"></i>
+              <div>
+                <p class="text-xs text-gray-400 uppercase font-semibold">Radar & Camera 360°</p>
+                <p class="text-sm font-bold text-white">Bảo Vệ Đa Lớp 360 Độ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-wider mb-4">
+            Lá chắn an toàn thông minh
+          </div>
+          <h3 class="text-3xl sm:text-4xl font-bold text-white mb-6">i-Activesense: Giác Quan Thứ 6 Bảo Vệ Toàn Diện</h3>
+          <p class="text-gray-300 leading-relaxed mb-6">
+            Không chỉ chủ động phòng ngừa rủi ro, i-Activesense đóng vai trò như người cộng sự thông minh, hỗ trợ người lái phản xạ nhanh chóng trước các tình huống bất ngờ trên đường.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-brand-darkLight border border-white/5">
+              <i class="fa-solid fa-shield-virus text-brand-red text-xl mb-2"></i>
+              <h5 class="text-white font-bold text-sm mb-1">SBS - Phanh tự động</h5>
+              <p class="text-gray-400 text-xs">Cảnh báo và tự động can thiệp phanh khi nhận diện chướng ngại vật phía trước.</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brand-darkLight border border-white/5">
+              <i class="fa-solid fa-gauge-high text-brand-red text-xl mb-2"></i>
+              <h5 class="text-white font-bold text-sm mb-1">MRCC - Ga tự động thích ứng</h5>
+              <p class="text-gray-400 text-xs">Tự động duy trì khoảng cách an toàn với xe phía trước theo dải tốc độ.</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brand-darkLight border border-white/5">
+              <i class="fa-solid fa-road text-brand-red text-xl mb-2"></i>
+              <h5 class="text-white font-bold text-sm mb-1">LAS & LDWS - Giữ làn đường</h5>
+              <p class="text-gray-400 text-xs">Cảnh báo chệch làn và nhẹ nhàng hỗ trợ đánh lái về giữa làn đường an toàn.</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brand-darkLight border border-white/5">
+              <i class="fa-solid fa-eye text-brand-red text-xl mb-2"></i>
+              <h5 class="text-white font-bold text-sm mb-1">BSM & RCTA - Cảnh báo điểm mù</h5>
+              <p class="text-gray-400 text-xs">Cảnh báo phương tiện vượt bên hông và cắt ngang khi lùi xe khỏi bãi đỗ.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Block 3: NỘI THẤT & SKYACTIV -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1" data-aos="fade-right">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-emerald-500/20 text-emerald-400 text-xs font-bold uppercase tracking-wider mb-4">
+            Nội thất & Vận hành
+          </div>
+          <h3 class="text-3xl sm:text-4xl font-bold text-white mb-6">Khoang Lái Tinh Gọn & Trải Nghiệm Jinba-Ittai</h3>
+          <p class="text-gray-300 leading-relaxed mb-6">
+            Bước vào không gian tối giản “Less is More”, bạn sẽ cảm nhận triết lý nhân trắc học nơi từng nút bấm, cụm điều khiển trung tâm và vô-lăng đều đặt chính xác theo tư thế tự nhiên của cơ thể.
+          </p>
+
+          <div class="space-y-4">
+            <div class="p-4 rounded-xl bg-brand-darkLight border border-white/5 flex items-center justify-between">
+              <div>
+                <h5 class="text-white font-bold text-sm">Động cơ SkyActiv-G 1.5L Thế Hệ Mới</h5>
+                <p class="text-gray-400 text-xs">Phản hồi chân ga tức thì, tối ưu đốt cháy nhiên liệu, êm ái vượt trội.</p>
+              </div>
+              <span class="text-brand-red font-bold text-sm">5.8L/100km</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brand-darkLight border border-white/5 flex items-center justify-between">
+              <div>
+                <h5 class="text-white font-bold text-sm">Hệ thống G-Vectoring Control Plus (GVC Plus)</h5>
+                <p class="text-gray-400 text-xs">Kiểm soát gia tốc khi vào cua, loại bỏ cảm giác say xe, tạo tư thế lái vững vàng.</p>
+              </div>
+              <i class="fa-solid fa-car-side text-slate-400"></i>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brand-darkLight border border-white/5 flex items-center justify-between">
+              <div>
+                <h5 class="text-white font-bold text-sm">Mazda Connect 8.8 inch & Dàn Âm Thanh Cao Cấp</h5>
+                <p class="text-gray-400 text-xs">Kết nối Apple CarPlay/Android Auto không dây, âm hưởng chuẩn phòng hòa nhạc.</p>
+              </div>
+              <i class="fa-solid fa-music text-slate-400"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2 relative" data-aos="fade-left">
+          <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80" 
+                 alt="Khoang nội thất sang trọng của Mazda 3" 
+                 class="w-full h-[380px] sm:h-[460px] object-cover group-hover:scale-105 transition duration-500">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 4. OFFER & PRICE (ACTION) ================= -->
+  <section id="pricing" class="py-24 bg-gradient-to-b from-brand-darkLight via-brand-charcoal to-brand-dark relative border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header with Urgency Alert -->
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-red text-white text-xs font-bold uppercase tracking-wider mb-4 animate-bounce">
+          <i class="fa-solid fa-fire"></i> Ưu Đãi Độc Quyền Tháng Này
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-white">Sở Hữu Mazda 3 Dễ Dàng Hơn Bao Giờ Hết</h2>
+        <p class="text-gray-300 mt-3 text-sm sm:text-base">Mức giá hấp dẫn kèm gói hỗ trợ tài chính tốt nhất trong phân khúc sedan hạng C.</p>
+        
+        <!-- Urgency Countdown Banner -->
+        <div class="mt-6 inline-flex flex-wrap items-center justify-center gap-3 bg-white/5 border border-white/15 px-6 py-3 rounded-2xl">
+          <span class="text-xs uppercase tracking-wider text-amber-400 font-bold"><i class="fa-solid fa-clock"></i> Thời gian ưu đãi còn lại:</span>
+          <div class="flex items-center gap-2 font-mono text-sm font-bold text-white">
+            <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10"><span id="cd-days">04</span> <small class="text-[10px] text-gray-400">Ngày</small></span> :
+            <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10"><span id="cd-hours">14</span> <small class="text-[10px] text-gray-400">Giờ</small></span> :
+            <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10"><span id="cd-mins">36</span> <small class="text-[10px] text-gray-400">Phút</small></span> :
+            <span class="bg-black/50 px-2.5 py-1 rounded border border-white/10 text-brand-red"><span id="cd-secs">48</span> <small class="text-[10px] text-gray-400">Giây</small></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Comparison Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        
+        <!-- Version 1: 1.5L Deluxe -->
+        <div class="p-8 rounded-3xl bg-brand-dark/90 border border-white/10 hover:border-white/30 transition flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="text-xs uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-white/10 text-gray-300">Khởi Đầu Hoàn Hảo</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white">Mazda 3 1.5L Deluxe</h3>
+            <p class="text-xs text-gray-400 mt-1 mb-6">Trang bị tiêu chuẩn đầy đủ tiện nghi thiết yếu</p>
+            
+            <div class="mb-6">
+              <span class="text-xs text-gray-400 block">Giá niêm yết từ:</span>
+              <div class="text-3xl font-extrabold text-white">579.000.000 <span class="text-sm font-normal text-gray-400">VNĐ</span></div>
+              <p class="text-xs text-brand-red font-semibold mt-1">Trả góp chỉ từ: <strong>6.5 triệu/tháng</strong></p>
+            </div>
+
+            <ul class="space-y-3 text-xs text-gray-300 border-t border-white/10 pt-6">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Đèn pha LED tự động bật/tắt</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Động cơ SkyActiv-G 1.5L tối ưu</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Màn hình trung tâm 8.8 inch</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> 7 Túi khí an toàn tiêu chuẩn</li>
+            </ul>
+          </div>
+
+          <a href="#lead-form" class="mt-8 block text-center py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition">
+            Chọn Bản Deluxe
+          </a>
+        </div>
+
+        <!-- Version 2: 1.5L Luxury (POPULAR) -->
+        <div class="p-8 rounded-3xl bg-brand-dark border-2 border-brand-red relative flex flex-col justify-between shadow-2xl shadow-brand-red/20 transform md:-translate-y-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-red text-white text-[11px] font-extrabold uppercase tracking-widest px-4 py-1 rounded-full shadow-md">
+            Lựa Chọn Phổ Biến Nhất
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center mb-4 mt-2">
+              <span class="text-xs uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-brand-red/20 text-brand-redLight">Cân Bằng Hoàn Hảo</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white">Mazda 3 1.5L Luxury</h3>
+            <p class="text-xs text-gray-400 mt-1 mb-6">Tiện nghi sang trọng vượt mong đợi</p>
+            
+            <div class="mb-6">
+              <span class="text-xs text-gray-400 block">Giá niêm yết từ:</span>
+              <div class="text-3xl font-extrabold text-brand-redLight">619.000.000 <span class="text-sm font-normal text-gray-400">VNĐ</span></div>
+              <p class="text-xs text-emerald-400 font-semibold mt-1">Trả góp chỉ từ: <strong>7.2 triệu/tháng</strong></p>
+            </div>
+
+            <ul class="space-y-3 text-xs text-gray-300 border-t border-white/10 pt-6">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Mọi trang bị trên bản Deluxe</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Ghế bọc da cao cấp toàn bộ</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Ghế lái chỉnh điện 10 hướng + nhớ vị trí</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Cửa gió điều hòa hàng ghế sau</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Mâm xe hợp kim 16 inch đa chấu</li>
+            </ul>
+          </div>
+
+          <a href="#lead-form" class="mt-8 block text-center py-3.5 rounded-xl bg-brand-red hover:bg-brand-redLight text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-brand-red/40 transition">
+            Chọn Bản Luxury
+          </a>
+        </div>
+
+        <!-- Version 3: 1.5L Premium -->
+        <div class="p-8 rounded-3xl bg-brand-dark/90 border border-white/10 hover:border-white/30 transition flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="text-xs uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-white/10 text-gray-300">Đẳng Cấp Tối Thượng</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white">Mazda 3 1.5L Premium</h3>
+            <p class="text-xs text-gray-400 mt-1 mb-6">Trọn bộ công nghệ chủ động i-Activesense</p>
+            
+            <div class="mb-6">
+              <span class="text-xs text-gray-400 block">Giá niêm yết từ:</span>
+              <div class="text-3xl font-extrabold text-white">729.000.000 <span class="text-sm font-normal text-gray-400">VNĐ</span></div>
+              <p class="text-xs text-brand-red font-semibold mt-1">Trả góp chỉ từ: <strong>8.5 triệu/tháng</strong></p>
+            </div>
+
+            <ul class="space-y-3 text-xs text-gray-300 border-t border-white/10 pt-6">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Mọi trang bị trên bản Luxury</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Gói trọn vẹn an toàn i-Activesense</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Màn hình hiển thị trên kính lái HUD</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Cửa sổ trời toàn cảnh cao cấp</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> Cảm biến đỗ xe trước & sau</li>
+            </ul>
+          </div>
+
+          <a href="#lead-form" class="mt-8 block text-center py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition">
+            Chọn Bản Premium
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Special Offer & Lead Form Section -->
+      <div id="lead-form" class="rounded-3xl bg-brand-dark border border-white/15 p-8 lg:p-12 shadow-2xl relative overflow-hidden" data-aos="fade-up">
+        <div class="absolute -top-32 -right-32 w-80 h-80 bg-brand-red/20 rounded-full blur-blob pointer-events-none"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+          
+          <!-- Left: Offer Highlights -->
+          <div class="lg:col-span-6 space-y-6" data-aos="fade-right" data-aos-delay="200">
+            <span class="px-3 py-1 rounded bg-amber-400/20 text-amber-300 text-xs font-bold uppercase tracking-wider">
+              Gói Quà Tặng Trị Giá Lên Đến 50 Triệu VNĐ
+            </span>
+            <h3 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
+              Để Lại Thông Tin – Nhận Báo Giá Lăn Bánh Chi Tiết Trong 5 Phút
+            </h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Dành riêng cho <strong class="text-brand-redLight">20 khách hàng đầu tiên</strong> đăng ký lái thử và nhận báo giá trong tuần này:
+            </p>
+
+            <div class="space-y-3 pt-2">
+              <div class="flex items-center gap-3 text-sm text-gray-200">
+                <i class="fa-solid fa-circle-check text-brand-red text-base"></i>
+                <span><strong>Hỗ trợ 50% - 100% Phí trước bạ</strong> (tùy dòng xe và khu vực)</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-gray-200">
+                <i class="fa-solid fa-circle-check text-brand-red text-base"></i>
+                <span>Tặng <strong>Gói phụ kiện chính hãng 25 triệu:</strong> Phim cách nhiệt cao cấp, camera hành trình Full HD, thảm lót sàn da.</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-gray-200">
+                <i class="fa-solid fa-circle-check text-brand-red text-base"></i>
+                <span>Tặng <strong>1 Năm Bảo hiểm vật chất thân vỏ chính hãng</strong></span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-gray-200">
+                <i class="fa-solid fa-circle-check text-brand-red text-base"></i>
+                <span>Hỗ trợ hồ sơ vay ngân hàng duyệt trong <strong>2 giờ</strong>, lãi suất từ <strong>0.65%/tháng</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Optimized Form -->
+          <div class="lg:col-span-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="p-6 sm:p-8 rounded-2xl bg-brand-charcoal/80 border border-white/10 backdrop-blur-md">
+              <h4 class="text-xl font-bold text-white mb-2">Đăng Ký Tư Vấn & Lái Thử Tận Nhà</h4>
+              <p class="text-xs text-gray-400 mb-6">Chuyên viên Mazda sẽ liên hệ báo giá lăn bánh chính xác và mang xe đến tận nơi phục vụ quý khách.</p>
+              
+              <form id="contactForm" class="space-y-4">
+                <div>
+                  <label for="customer-name" class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-1.5">Họ và tên quý khách *</label>
+                  <input type="text" id="customer-name" name="fullName" required placeholder="Ví dụ: Nguyễn Minh Phúc" class="w-full px-4 py-3 rounded-xl bg-brand-dark border border-white/15 text-white placeholder-gray-500 focus:outline-none focus:border-brand-red text-sm transition">
+                </div>
+
+                <div>
+                  <label for="customer-phone" class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-1.5">Số điện thoại *</label>
+                  <input type="tel" id="customer-phone" name="phone" required placeholder="Ví dụ: 0911 212 121" class="w-full px-4 py-3 rounded-xl bg-brand-dark border border-white/15 text-white placeholder-gray-500 focus:outline-none focus:border-brand-red text-sm transition">
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="customer-version" class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-1.5">Phiên bản quan tâm</label>
+                    <select id="customer-version" name="carVersion" class="w-full px-4 py-3 rounded-xl bg-brand-dark border border-white/15 text-white focus:outline-none focus:border-brand-red text-sm transition">
+                      <option>Mazda 3 1.5L Deluxe</option>
+                      <option selected>Mazda 3 1.5L Luxury</option>
+                      <option>Mazda 3 1.5L Premium</option>
+                      <option>Mazda 3 Sport Hatchback</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label for="customer-city" class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-1.5">Tỉnh / Thành phố</label>
+                    <select id="customer-city" name="city" class="w-full px-4 py-3 rounded-xl bg-brand-dark border border-white/15 text-white focus:outline-none focus:border-brand-red text-sm transition">
+                      <option selected>Hà Nội</option>
+                      <option>TP. Hồ Chí Minh</option>
+                      <option>Đà Nẵng</option>
+                      <option>Hải Phòng</option>
+                      <option>Cần Thơ</option>
+                      <option>Tỉnh / Thành khác</option>
+                    </select>
+                  </div>
+                </div>
+
+                <button id="submit-lead-btn" type="submit" class="w-full mt-4 py-4 rounded-xl bg-brand-red hover:bg-brand-redLight text-white font-extrabold text-sm uppercase tracking-wider shadow-lg shadow-brand-red/40 transition duration-200 transform hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-2">
+                  <span>NHẬN BÁO GIÁ LĂN BÁNH & ƯU ĐÃI NGAY</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                <p class="text-[11px] text-gray-400 text-center mt-3">
+                  <i class="fa-solid fa-lock text-[10px]"></i> Cam kết bảo mật thông tin cá nhân 100%. Không làm phiền.
+                </p>
+
+                <!-- Thanh trạng thái kết nối Google Sheet & Xem Leads -->
+                <div class="pt-3 border-t border-white/10 flex flex-wrap items-center justify-between text-[11px] text-gray-400 gap-2">
+                  <button type="button" onclick="openGoogleSheetModal()" class="flex items-center gap-1.5 text-emerald-400 hover:text-emerald-300 transition">
+                    <i class="fa-solid fa-table-cells"></i>
+                    <span id="sheet-status-text">Cấu hình Google Sheet</span>
+                    <span id="sheet-connected-dot" class="w-2 h-2 rounded-full bg-amber-400 inline-block" title="Chưa gắn URL Web App"></span>
+                  </button>
+                  <button type="button" onclick="openLeadsModal()" class="flex items-center gap-1.5 text-gray-300 hover:text-white transition">
+                    <i class="fa-solid fa-database text-brand-redLight"></i>
+                    <span>Dữ liệu đã lưu: <strong id="leads-count-badge" class="text-white">0</strong></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 5. FOOTER & TRUST (REASSURANCE) ================= -->
+  <footer class="bg-black text-gray-400 pt-16 pb-12 border-t border-white/10 text-xs sm:text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Grid: Warranty, Services, Support -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pb-12 border-b border-white/10">
+        <div class="flex items-start gap-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-brand-red text-xl flex-shrink-0">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-bold text-base mb-1">Bảo Hành Chính Hãng 5 Năm</h4>
+            <p class="text-xs text-gray-400 leading-relaxed">Chính sách bảo hành 5 năm hoặc 150.000 km từ THACO AUTO, mang lại sự an tâm tuyệt đối trên mọi cung đường.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-brand-red text-xl flex-shrink-0">
+            <i class="fa-solid fa-wrench"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-bold text-base mb-1">Trạm Dịch Vụ 63 Tỉnh Thành</h4>
+            <p class="text-xs text-gray-400 leading-relaxed">Mạng lưới xưởng dịch vụ ủy quyền phủ khắp toàn quốc cùng đội ngũ kỹ thuật viên được đào tạo theo chuẩn Mazda Nhật Bản.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-brand-red text-xl flex-shrink-0">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-bold text-base mb-1">Cứu Hộ & Hỗ Trợ 24/7</h4>
+            <p class="text-xs text-gray-400 leading-relaxed">Tổng đài cứu hộ khẩn cấp và tư vấn kỹ thuật luôn túc trực hỗ trợ 24/7 kể cả ngày nghỉ và lễ Tết.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Footer Info -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 py-12 border-b border-white/10" data-aos="fade-up">
+        
+        <!-- Brand Summary -->
+        <div class="md:col-span-1 space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 rounded-full border border-slate-300 flex items-center justify-center font-bold text-slate-100 text-xs">
+              M
+            </div>
+            <span class="text-lg font-bold tracking-widest uppercase text-white font-serif">MAZDA VIỆT NAM</span>
+          </div>
+          <p class="text-xs leading-relaxed text-gray-400">
+            Phân phối chính hãng bởi Tập đoàn THACO AUTO. Tự hào mang đến những dòng xe đỉnh cao với triết lý thiết kế KODO và công nghệ SkyActiv vượt trội.
+          </p>
+          <div class="flex space-x-3 pt-2">
+            <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-brand-red flex items-center justify-center text-white transition"><i class="fa-brands fa-facebook-f text-xs"></i></a>
+            <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-brand-red flex items-center justify-center text-white transition"><i class="fa-brands fa-youtube text-xs"></i></a>
+            <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-brand-red flex items-center justify-center text-white transition"><i class="fa-brands fa-tiktok text-xs"></i></a>
+          </div>
+        </div>
+
+        <!-- Showrooms Miền Bắc -->
+        <div>
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Hệ Thống Miền Bắc</h5>
+          <ul class="space-y-2.5 text-xs text-gray-400">
+            <li><strong class="text-slate-300">Mazda Lê Văn Lương:</strong> 68 Lê Văn Lương, Nhân Chính, Thanh Xuân, Hà Nội</li>
+            <li><strong class="text-slate-300">Mazda Giải Phóng:</strong> Km 2.5 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội</li>
+            <li><strong class="text-slate-300">Mazda Long Biên:</strong> Số 1 Ngô Gia Tự, Đức Giang, Long Biên, Hà Nội</li>
+          </ul>
+        </div>
+
+        <!-- Showrooms Miền Nam -->
+        <div>
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Hệ Thống Miền Nam</h5>
+          <ul class="space-y-2.5 text-xs text-gray-400">
+            <li><strong class="text-slate-300">Mazda Phú Mỹ Hưng:</strong> 314 Nguyễn Văn Linh, P. Bình Thuận, Q.7, TP.HCM</li>
+            <li><strong class="text-slate-300">Mazda Tân Sơn Nhất:</strong> 07 Hoàng Minh Giám, P.9, Q. Phú Nhuận, TP.HCM</li>
+            <li><strong class="text-slate-300">Mazda Bình Triệu:</strong> 127 QL13, Hiệp Bình Chánh, Thủ Đức, TP.HCM</li>
+          </ul>
+        </div>
+
+        <!-- Hotline & Liên Hệ -->
+        <div>
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Tổng Đài Tư Vấn 24/7</h5>
+          <div class="space-y-3 text-xs">
+            <p>
+              <span class="block text-gray-400">Hotline Bán Hàng & Lái Thử:</span>
+              <a href="tel:0911132826" class="text-base font-bold text-brand-redLight hover:underline">0911 132 826</a>
+            </p>
+            <p>
+              <span class="block text-gray-400">Tư Vấn Trực Tiếp Qua Zalo:</span>
+              <a href="https://zalo.me/0911132826" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-[#0068FF] hover:underline flex items-center gap-1.5 mt-0.5">
+                <i class="fa-solid fa-comments"></i> 0911 132 826 (Zalo Mazda)
+              </a>
+            </p>
+            <p>
+              <span class="block text-gray-400">Hotline Dịch Vụ Cứu Hộ:</span>
+              <a href="tel:1800545592" class="text-sm font-semibold text-white">1800 545 592</a>
+            </p>
+            <p>
+              <span class="block text-gray-400">Email Hỗ Trợ:</span>
+              <span class="text-slate-300">cskh@thaco.com.vn</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Legal Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+        <p>© 2026 Mazda Vietnam - Phân phối chính hãng bởi THACO AUTO. Bảo lưu mọi bản quyền.</p>
+        <div class="flex space-x-6">
+          <a href="#" class="hover:text-gray-300 transition">Điều khoản sử dụng</a>
+          <a href="#" class="hover:text-gray-300 transition">Chính sách bảo mật</a>
+          <a href="#" class="hover:text-gray-300 transition">Quy chuẩn kỹ thuật</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= 6. LIVE PURCHASE SOCIAL PROOF TOAST (GÓC TRÁI BÊN DƯỚI - NẰM TRÊN BONG BÓNG HOTLINE) ================= -->
+  <div id="sales-toast" class="fixed bottom-36 left-4 sm:bottom-24 sm:left-6 z-50 max-w-[340px] sm:max-w-sm pointer-events-auto transform -translate-x-[120%] opacity-0 transition-all duration-500 ease-out">
+    <div class="p-3.5 sm:p-4 rounded-2xl bg-brand-dark/95 backdrop-blur-md border border-white/15 shadow-2xl flex items-start gap-3.5 relative overflow-hidden group">
+      <!-- Glow Accent phía sau Toast -->
+      <div class="absolute -top-10 -left-10 w-24 h-24 bg-brand-red/30 rounded-full blur-xl pointer-events-none"></div>
+      
+      <!-- Ảnh đại diện xe / Check icon -->
+      <div class="relative flex-shrink-0">
+        <img id="toast-car-img" src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=150&q=80" alt="Mazda 3" class="w-12 h-12 rounded-xl object-cover border border-white/20">
+        <span class="absolute -bottom-1 -right-1 w-4 h-4 bg-emerald-500 border-2 border-brand-dark rounded-full flex items-center justify-center text-[9px] text-white">
+          <i class="fa-solid fa-check"></i>
+        </span>
+      </div>
+
+      <!-- Nội dung thông báo -->
+      <div class="flex-1 pr-4 min-w-0">
+        <div class="flex items-center gap-1.5 mb-0.5">
+          <span id="toast-buyer" class="text-xs font-bold text-white truncate">Anh Hoàng Long</span>
+          <span class="text-[10px] text-gray-400">•</span>
+          <span id="toast-city" class="text-[11px] text-gray-400">TP.HCM</span>
+        </div>
+        <p id="toast-action" class="text-xs text-gray-200 leading-snug line-clamp-2">
+          Vừa đặt cọc thành công <strong class="text-brand-redLight font-semibold">Mazda 3 1.5L Premium</strong>
+        </p>
+        <div class="flex items-center justify-between mt-1.5 text-[10px] text-gray-400">
+          <span id="toast-time" class="flex items-center gap-1"><i class="fa-regular fa-clock text-[9px]"></i> Vừa xong</span>
+          <span class="text-emerald-400 font-medium flex items-center gap-1"><i class="fa-solid fa-shield-check text-[10px]"></i> Đã xác thực</span>
+        </div>
+      </div>
+
+      <!-- Nút đóng thông báo -->
+      <button onclick="dismissToast()" class="absolute top-2.5 right-2.5 text-gray-400 hover:text-white text-xs p-1 focus:outline-none" title="Đóng thông báo">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- ================= FLOATING HOTLINE BUBBLE (GÓC TRÁI BÊN DƯỚI) ================= -->
+  <aside aria-label="Hotline Liên Hệ" class="fixed left-4 bottom-20 sm:left-6 sm:bottom-6 z-40">
+    <a href="tel:0911132826" class="relative group flex items-center bg-gradient-to-r from-brand-red to-brand-redDark text-white p-3.5 sm:p-4 rounded-full shadow-2xl shadow-brand-red/50 hover:shadow-brand-red/80 hover:scale-105 active:scale-95 transition-all duration-300">
+      <!-- Vòng sóng tỏa Pulse Rings -->
+      <span class="absolute inset-0 rounded-full bg-brand-red opacity-75 animate-ping pointer-events-none"></span>
+      <span class="absolute -inset-1 rounded-full bg-brand-red/40 animate-pulse pointer-events-none"></span>
+      
+      <!-- Biểu tượng điện thoại rung lắc -->
+      <span class="relative z-10 w-6 h-6 flex items-center justify-center">
+        <i class="fa-solid fa-phone-volume text-lg sm:text-xl animate-phone-shake"></i>
+      </span>
+      
+      <!-- Nhãn mở rộng khi rê chuột trên màn hình lớn -->
+      <span class="hidden md:inline-block max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap text-xs font-bold pl-0 group-hover:pl-3 group-hover:pr-2 uppercase tracking-wider">
+        Hotline: 0911 132 826
+      </span>
+
+      <!-- Huy hiệu trạng thái 24/7 -->
+      <span class="absolute -top-1 -right-1 px-1.5 py-0.5 bg-emerald-500 text-[9px] font-extrabold text-white rounded-full uppercase shadow">
+        24/7
+      </span>
+    </a>
+  </aside>
+
+  <!-- ================= FLOATING ZALO BUBBLE (GÓC PHẢI BÊN DƯỚI) ================= -->
+  <aside aria-label="Zalo Tư Vấn" class="fixed right-4 bottom-20 sm:right-6 sm:bottom-6 z-40">
+    <a href="https://zalo.me/0911132826" target="_blank" rel="noopener noreferrer" class="relative group flex items-center bg-gradient-to-r from-[#0068FF] to-[#0052cc] text-white p-3.5 sm:p-4 rounded-full shadow-2xl shadow-blue-500/50 hover:shadow-blue-500/80 hover:scale-105 active:scale-95 transition-all duration-300">
+      <!-- Vòng sóng tỏa Pulse Rings -->
+      <span class="absolute inset-0 rounded-full bg-[#0068FF] opacity-75 animate-ping pointer-events-none"></span>
+      <span class="absolute -inset-1 rounded-full bg-[#0068FF]/40 animate-pulse pointer-events-none"></span>
+      
+      <!-- Biểu tượng Zalo -->
+      <span class="relative z-10 w-6 h-6 flex items-center justify-center">
+        <svg viewBox="0 0 40 40" class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 3C10.6 3 3 9.7 3 18C3 21.6 4.6 24.9 7.3 27.4L5.5 33.2C5.3 33.9 6 34.5 6.6 34.2L12.5 31.8C14.8 32.6 17.3 33 20 33C29.4 33 37 26.3 37 18C37 9.7 29.4 3 20 3Z" fill="white" fill-opacity="0.22"/>
+          <text x="20" y="23" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="12" fill="white" text-anchor="middle" letter-spacing="-0.5">Zalo</text>
+        </svg>
+      </span>
+      
+      <!-- Nhãn mở rộng khi rê chuột trên màn hình lớn -->
+      <span class="hidden md:inline-block max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap text-xs font-bold pl-0 group-hover:pl-3 group-hover:pr-2 uppercase tracking-wider">
+        Chat Zalo: 0911 132 826
+      </span>
+
+      <!-- Huy hiệu tín hiệu Online -->
+      <span class="absolute -top-1 -right-1 flex h-3 w-3">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500 border border-white"></span>
+      </span>
+    </a>
+  </aside>
+
+  <!-- Floating Sticky Action Bar for Mobile -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-brand-dark/95 backdrop-blur-md border-t border-white/10 px-4 py-3 flex items-center gap-3">
+    <button id="theme-toggle-mobile" type="button" aria-label="Chuyển theme" class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white text-base flex-shrink-0">
+      <i id="theme-icon-sun-mob" class="fa-solid fa-sun text-amber-400 text-sm hidden"></i>
+      <i id="theme-icon-moon-mob" class="fa-solid fa-moon text-slate-300 text-sm"></i>
+    </button>
+    <a href="tel:0911132826" class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white text-lg flex-shrink-0" title="Gọi Hotline: 0911 132 826">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    <a href="#lead-form" class="flex-1 py-3 rounded-xl bg-brand-red text-white text-center font-bold text-xs uppercase tracking-wider shadow-lg shadow-brand-red/40">
+      Nhận Ưu Đãi & Báo Giá
+    </a>
+  </div>
+
+  <!-- ================= MODAL 1: THÔNG BÁO ĐĂNG KÝ THÀNH CÔNG ================= -->
+  <div id="lead-success-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="relative w-full max-w-md p-6 sm:p-8 rounded-3xl bg-brand-darkLight border border-white/15 shadow-2xl text-center transform scale-95 transition-transform duration-300">
+      <!-- Glow Accent -->
+      <div class="absolute -top-12 left-1/2 -translate-x-1/2 w-32 h-32 bg-emerald-500/20 rounded-full blur-2xl pointer-events-none"></div>
+
+      <!-- Icon check thành công -->
+      <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-emerald-500/20 border-2 border-emerald-500 flex items-center justify-center text-emerald-400 text-2xl animate-bounce">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+
+      <h3 class="text-2xl font-extrabold text-white mb-2">Đăng Ký Thành Công!</h3>
+      <p class="text-xs text-gray-300 mb-6">Thông tin của Quý khách đã được tiếp nhận và lưu trữ thành công trên hệ thống quản lý Mazda.</p>
+
+      <!-- Chi tiết thông tin vừa đăng ký -->
+      <div class="p-4 rounded-2xl bg-black/40 border border-white/10 text-left text-xs space-y-2 mb-6">
+        <div class="flex justify-between items-center py-1 border-b border-white/5">
+          <span class="text-gray-400">Khách hàng:</span>
+          <strong id="success-modal-name" class="text-white font-semibold">Nguyễn Minh Phúc</strong>
+        </div>
+        <div class="flex justify-between items-center py-1 border-b border-white/5">
+          <span class="text-gray-400">Số điện thoại:</span>
+          <strong id="success-modal-phone" class="text-white font-semibold">0911 212 121</strong>
+        </div>
+        <div class="flex justify-between items-center py-1 border-b border-white/5">
+          <span class="text-gray-400">Phiên bản chọn:</span>
+          <span id="success-modal-version" class="text-brand-redLight font-semibold">Mazda 3 1.5L Luxury</span>
+        </div>
+        <div class="flex justify-between items-center py-1 border-b border-white/5">
+          <span class="text-gray-400">Khu vực:</span>
+          <span id="success-modal-city" class="text-slate-300">Hà Nội</span>
+        </div>
+        <div class="flex justify-between items-center pt-1">
+          <span class="text-gray-400">Trạng thái lưu:</span>
+          <span id="success-modal-sheet-status" class="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-400">
+            <i class="fa-solid fa-cloud-arrow-up"></i> Đã đồng bộ Google Sheet
+          </span>
+        </div>
+      </div>
+
+      <div class="flex gap-3">
+        <button type="button" onclick="closeSuccessModal()" class="flex-1 py-3.5 rounded-xl bg-brand-red hover:bg-brand-redLight text-white font-bold text-xs uppercase tracking-wider transition">
+          Xác Nhận & Hoàn Tất
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL 2: CẤU HÌNH GOOGLE SHEET ================= -->
+  <div id="google-sheet-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="relative w-full max-w-xl max-h-[90vh] overflow-y-auto p-6 sm:p-7 rounded-3xl bg-brand-darkLight border border-white/15 shadow-2xl text-left transform scale-95 transition-transform duration-300">
+      <div class="flex items-center justify-between pb-4 border-b border-white/10 mb-4">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-lg">
+            <i class="fa-brands fa-google-drive"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">Kết Nối Google Sheets</h3>
+            <p class="text-[11px] text-gray-400">Tự động đẩy thông tin đăng ký lái thử vào trang tính theo thời gian thực</p>
+          </div>
+        </div>
+        <button onclick="closeGoogleSheetModal()" class="text-gray-400 hover:text-white p-1 text-sm"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Input URL -->
+      <div class="space-y-3 mb-5">
+        <label class="block text-xs font-semibold text-gray-300">Google Apps Script Web App URL:</label>
+        <div class="flex flex-col sm:flex-row gap-2">
+          <input type="url" id="sheet-url-input" placeholder="https://script.google.com/macros/s/AKfycbx.../exec" class="flex-1 px-3.5 py-2.5 rounded-xl bg-brand-dark border border-white/15 text-white text-xs focus:outline-none focus:border-emerald-500 font-mono">
+          <button type="button" onclick="saveGoogleSheetUrl()" class="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-wider transition whitespace-nowrap">
+            Lưu Kết Nối
+          </button>
+        </div>
+        <p id="sheet-modal-feedback" class="text-[11px] text-emerald-400 hidden"></p>
+      </div>
+
+      <!-- Hướng dẫn 3 bước thiết lập -->
+      <div class="p-4 rounded-2xl bg-black/40 border border-white/10 space-y-3 text-xs text-gray-300">
+        <div class="flex items-center justify-between">
+          <h4 class="font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-circle-question text-amber-400"></i>
+            Hướng dẫn thiết lập Google Sheets trong 1 phút:
+          </h4>
+          <button type="button" onclick="copyAppsScriptCode()" class="text-[11px] text-brand-redLight hover:underline font-semibold flex items-center gap-1">
+            <i class="fa-regular fa-copy"></i> Sao chép mã Apps Script
+          </button>
+        </div>
+
+        <ol class="list-decimal list-inside space-y-1.5 text-[11px] text-gray-300 leading-relaxed">
+          <li>Mở một <strong>Google Trang tính (Google Sheets)</strong> mới trên tài khoản Google của bạn.</li>
+          <li>Trên thanh menu chọn: <strong>Tiện ích mở rộng (Extensions)</strong> &gt; <strong>Apps Script</strong>.</li>
+          <li>Xóa hết nội dung cũ, dán đoạn mã Apps Script bên dưới vào rồi nhấn <strong>Lưu (Ctrl + S)</strong>.</li>
+          <li>Nhấn nút <strong>Triển khai (Deploy)</strong> &gt; <strong>Tùy chọn triển khai mới (New deployment)</strong>:
+            <ul class="list-disc list-inside pl-4 text-gray-400">
+              <li>Loại: chọn <strong>Ứng dụng web (Web app)</strong></li>
+              <li>Thực thi dưới dạng: <strong>Tôi (Me)</strong></li>
+              <li>Ai có quyền truy cập (Who has access): <strong>Bất kỳ ai (Anyone)</strong> <em>(Bắt buộc để form đẩy data được)</em></li>
+            </ul>
+          </li>
+          <li>Nhấn <strong>Triển khai</strong>, cấp quyền và sao chép <strong>Web App URL</strong> dán vào ô bên trên.</li>
+        </ol>
+
+        <!-- Code Block Preview -->
+        <div class="relative mt-2">
+          <pre id="apps-script-snippet" class="p-3 rounded-xl bg-brand-dark border border-white/10 text-[10px] text-emerald-300 font-mono overflow-x-auto max-h-40 leading-snug">function doPost(e) {
+  var lock = LockService.getScriptLock();
+  lock.tryLock(10000);
+  try {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    if (sheet.getLastRow() === 0) {
+      sheet.appendRow(["Thời Gian", "Họ Và Tên", "Số Điện Thoại", "Phiên Bản Xe", "Tỉnh Thành", "Trạng Thái"]);
+    }
+    var p = e.parameter;
+    sheet.appendRow([
+      p.timestamp || new Date().toLocaleString("vi-VN"),
+      p.fullName || "",
+      p.phone || "",
+      p.carVersion || "",
+      p.city || "",
+      "Mới đăng ký"
+    ]);
+    return ContentService.createTextOutput(JSON.stringify({result: "success"})).setMimeType(ContentService.MimeType.JSON);
+  } catch (err) {
+    return ContentService.createTextOutput(JSON.stringify({result: "error", error: err.toString()})).setMimeType(ContentService.MimeType.JSON);
+  } finally {
+    lock.releaseLock();
+  }
+}</pre>
+        </div>
+      </div>
+
+      <div class="mt-4 flex justify-end">
+        <button type="button" onclick="closeGoogleSheetModal()" class="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs transition">
+          Đóng
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL 3: DANH SÁCH LEADS ĐÃ LƯU ================= -->
+  <div id="leads-view-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="relative w-full max-w-3xl max-h-[85vh] flex flex-col p-6 rounded-3xl bg-brand-darkLight border border-white/15 shadow-2xl text-left transform scale-95 transition-transform duration-300">
+      <div class="flex items-center justify-between pb-4 border-b border-white/10 mb-4">
+        <div>
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-users-gear text-brand-redLight"></i>
+            Danh Sách Khách Hàng Đăng Ký Lái Thử
+          </h3>
+          <p class="text-[11px] text-gray-400">Toàn bộ dữ liệu khách gửi được tự động lưu trữ tại đây và đồng bộ Google Sheets</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="exportLeadsToCsv()" class="px-3 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center gap-1.5 transition">
+            <i class="fa-solid fa-file-csv"></i> Xuất CSV/Excel
+          </button>
+          <button onclick="closeLeadsModal()" class="text-gray-400 hover:text-white p-1 text-sm"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
+
+      <!-- Bảng danh sách Leads -->
+      <div class="flex-1 overflow-y-auto rounded-xl border border-white/10 bg-brand-dark/50 mb-4">
+        <table class="w-full text-left text-xs text-gray-300">
+          <thead class="bg-white/5 uppercase text-[10px] text-gray-400 sticky top-0 backdrop-blur-md">
+            <tr>
+              <th class="p-3">Thời gian</th>
+              <th class="p-3">Họ và tên</th>
+              <th class="p-3">Số điện thoại</th>
+              <th class="p-3">Phiên bản xe</th>
+              <th class="p-3">Tỉnh thành</th>
+              <th class="p-3">Trạng thái</th>
+            </tr>
+          </thead>
+          <tbody id="leads-table-body" class="divide-y divide-white/5 font-mono text-[11px]">
+            <!-- Sẽ được render bởi JavaScript -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="flex items-center justify-between pt-2 border-t border-white/10 text-xs text-gray-400">
+        <button onclick="clearAllLeads()" class="text-rose-400 hover:text-rose-300 text-[11px] underline">
+          Xóa toàn bộ lịch sử lưu
+        </button>
+        <button onclick="closeLeadsModal()" class="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs transition">
+          Đóng
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= AOS (ANIMATE ON SCROLL) SCRIPT ================= -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- ================= JAVASCRIPT: TYPING EFFECT, THEME TOGGLE & DYNAMIC INTERACTIONS ================= -->
+  <script>
+    // 1. TYPING EFFECT CHO TIÊU ĐỀ HERO SECTION
+    const phrases = [
+      "Đánh thức mọi giác quan sau tay lái",
+      "Khơi nguồn cảm xúc Jinba-Ittai",
+      "Tuyệt tác nghệ thuật thiết kế KODO"
+    ];
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingElement = document.getElementById("typing-text");
+
+    function typeEffect() {
+      if (!typingElement) return;
+      const currentPhrase = phrases[phraseIndex];
+
+      if (isDeleting) {
+        typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
+        charIndex--;
+      } else {
+        typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
+        charIndex++;
+      }
+
+      let speed = isDeleting ? 40 : 85;
+
+      if (!isDeleting && charIndex === currentPhrase.length) {
+        speed = 2200;
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        speed = 450;
+      }
+
+      setTimeout(typeEffect, speed);
+    }
+
+    // 2. DYNAMIC COUNTDOWN TIMER
+    function updateCountdown() {
+      const now = new Date();
+      const targetDate = new Date(now.getTime() + (4 * 24 * 60 * 60 * 1000) + (14 * 60 * 60 * 1000) + (36 * 60 * 1000));
+
+      function tick() {
+        const currentTime = new Date().getTime();
+        const diff = targetDate.getTime() - currentTime;
+
+        if (diff > 0) {
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+          const dElem = document.getElementById("cd-days");
+          const hElem = document.getElementById("cd-hours");
+          const mElem = document.getElementById("cd-mins");
+          const sElem = document.getElementById("cd-secs");
+
+          if (dElem) dElem.textContent = String(days).padStart(2, '0');
+          if (hElem) hElem.textContent = String(hours).padStart(2, '0');
+          if (mElem) mElem.textContent = String(mins).padStart(2, '0');
+          if (sElem) sElem.textContent = String(secs).padStart(2, '0');
+        }
+      }
+      tick();
+      setInterval(tick, 1000);
+    }
+
+    // 3. DARK MODE / LIGHT MODE TOGGLE CONTROLLER
+    function initTheme() {
+      const themeToggleBtn = document.getElementById('theme-toggle');
+      const themeToggleMobileBtn = document.getElementById('theme-toggle-mobile');
+      const sunIcon = document.getElementById('theme-icon-sun');
+      const moonIcon = document.getElementById('theme-icon-moon');
+      const sunIconMob = document.getElementById('theme-icon-sun-mob');
+      const moonIconMob = document.getElementById('theme-icon-moon-mob');
+
+      function renderThemeIcons(isDark) {
+        if (isDark) {
+          if (sunIcon) sunIcon.classList.remove('hidden');
+          if (moonIcon) moonIcon.classList.add('hidden');
+          if (sunIconMob) sunIconMob.classList.remove('hidden');
+          if (moonIconMob) moonIconMob.classList.add('hidden');
+        } else {
+          if (sunIcon) sunIcon.classList.add('hidden');
+          if (moonIcon) moonIcon.classList.remove('hidden');
+          if (sunIconMob) sunIconMob.classList.add('hidden');
+          if (moonIconMob) moonIconMob.classList.remove('hidden');
+        }
+      }
+
+      function toggleTheme() {
+        const isDark = document.documentElement.classList.contains('dark');
+        if (isDark) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('mazda_theme', 'light');
+          renderThemeIcons(false);
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('mazda_theme', 'dark');
+          renderThemeIcons(true);
+        }
+      }
+
+      // Initial check
+      const isCurrentlyDark = document.documentElement.classList.contains('dark');
+      renderThemeIcons(isCurrentlyDark);
+
+      // Event listeners
+      if (themeToggleBtn) themeToggleBtn.addEventListener('click', toggleTheme);
+      if (themeToggleMobileBtn) themeToggleMobileBtn.addEventListener('click', toggleTheme);
+    }
+
+    // 4. TOAST THÔNG BÁO ĐƠN HÀNG NGẪU NHIÊN (MỖI 5 GIÂY)
+    const buyers = [
+      { name: "Anh Hoàng Long", city: "TP. Hồ Chí Minh", action: "Vừa đặt cọc thành công Mazda 3 1.5L Premium (Đỏ Soul Red)", time: "Cách đây 2 phút" },
+      { name: "Chị Minh Thư", city: "Hà Nội", action: "Vừa đăng ký lái thử tận nhà Mazda 3 Sport Luxury", time: "Cách đây 5 phút" },
+      { name: "Anh Quốc Bảo", city: "Đà Nẵng", action: "Vừa nhận báo giá lăn bánh Mazda 3 1.5L Deluxe", time: "Cách đây 1 phút" },
+      { name: "Anh Tuấn Anh", city: "Hải Phòng", action: "Vừa hoàn tất thủ tục trả góp Mazda 3 Premium (Trắng Ngọc Trai)", time: "Cách đây 7 phút" },
+      { name: "Chị Phương Thảo", city: "Cần Thơ", action: "Vừa đặt cọc thành công Mazda 3 1.5L Luxury", time: "Cách đây 3 phút" },
+      { name: "Anh Đức Thắng", city: "Đồng Nai", action: "Vừa đăng ký nhận gói ưu đãi 100% trước bạ", time: "Cách đây 4 phút" },
+      { name: "Chị Mai Linh", city: "Bình Dương", action: "Vừa đặt lịch lái thử Mazda 3 Hatchback cuối tuần", time: "Cách đây 8 phút" },
+      { name: "Anh Quang Huy", city: "Quảng Ninh", action: "Vừa nhận báo giá lăn bánh Mazda 3 1.5L Premium", time: "Vừa xong" },
+      { name: "Anh Thanh Tùng", city: "Nghệ An", action: "Vừa đặt cọc thành công Mazda 3 Luxury (Xám Machine)", time: "Cách đây 6 phút" },
+      { name: "Chị Bích Ngọc", city: "Bà Rịa - Vũng Tàu", action: "Vừa đăng ký lái thử Mazda 3 All-New", time: "Cách đây 3 phút" }
+    ];
+
+    let lastBuyerIndex = -1;
+    let toastTimeout = null;
+
+    function showRandomToast() {
+      const toast = document.getElementById("sales-toast");
+      if (!toast) return;
+
+      // Chọn người mua ngẫu nhiên khác với người vừa hiển thị
+      let randomIndex;
+      do {
+        randomIndex = Math.floor(Math.random() * buyers.length);
+      } while (randomIndex === lastBuyerIndex && buyers.length > 1);
+      lastBuyerIndex = randomIndex;
+
+      const buyer = buyers[randomIndex];
+
+      // Cập nhật DOM
+      const buyerElem = document.getElementById("toast-buyer");
+      const cityElem = document.getElementById("toast-city");
+      const actionElem = document.getElementById("toast-action");
+      const timeElem = document.getElementById("toast-time");
+
+      if (buyerElem) buyerElem.textContent = buyer.name;
+      if (cityElem) cityElem.textContent = buyer.city;
+      if (actionElem) {
+        actionElem.innerHTML = buyer.action.replace(
+          /(Mazda 3[^<]*)/i,
+          '<strong class="text-brand-redLight font-semibold">$1</strong>'
+        );
+      }
+      if (timeElem) timeElem.innerHTML = `<i class="fa-regular fa-clock text-[9px]"></i> ${buyer.time}`;
+
+      // Hiệu ứng trượt vào từ góc trái bên dưới
+      toast.classList.remove("-translate-x-[120%]", "opacity-0");
+      toast.classList.add("translate-x-0", "opacity-100");
+
+      // Giữ hiển thị 3.8s rồi ẩn đi để chu kỳ 5s lặp lại
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        hideToast();
+      }, 3600);
+    }
+
+    function hideToast() {
+      const toast = document.getElementById("sales-toast");
+      if (!toast) return;
+      toast.classList.remove("translate-x-0", "opacity-100");
+      toast.classList.add("-translate-x-[120%]", "opacity-0");
+    }
+
+    function dismissToast() {
+      hideToast();
+    }
+
+    function initSalesNotification() {
+      // Xuất hiện lần đầu sau 1.5 giây
+      setTimeout(() => {
+        showRandomToast();
+        // Lặp lại mỗi 5 giây với người ngẫu nhiên
+        setInterval(() => {
+          showRandomToast();
+        }, 5000);
+      }, 1500);
+    }
+
+    // 5. GOOGLE SHEETS & LOCAL DATA STORAGE CONTROLLER
+    const DEFAULT_GOOGLE_SHEET_URL = "";
+
+    function getSheetUrl() {
+      return localStorage.getItem('mazda_sheet_url') || DEFAULT_GOOGLE_SHEET_URL;
+    }
+
+    function updateSheetStatusDisplay() {
+      const url = getSheetUrl();
+      const statusText = document.getElementById('sheet-status-text');
+      const dot = document.getElementById('sheet-connected-dot');
+      const input = document.getElementById('sheet-url-input');
+
+      if (input && url) input.value = url;
+
+      if (url) {
+        if (statusText) statusText.textContent = "Google Sheet: Đã kết nối";
+        if (dot) {
+          dot.classList.remove('bg-amber-400');
+          dot.classList.add('bg-emerald-400');
+          dot.title = "Đã cấu hình Web App URL";
+        }
+      } else {
+        if (statusText) statusText.textContent = "Cấu hình Google Sheet";
+        if (dot) {
+          dot.classList.remove('bg-emerald-400');
+          dot.classList.add('bg-amber-400');
+          dot.title = "Chưa gắn Web App URL (bấm để cài đặt)";
+        }
+      }
+    }
+
+    function updateLeadsCountBadge() {
+      const leads = JSON.parse(localStorage.getItem('mazda_leads') || '[]');
+      const badge = document.getElementById('leads-count-badge');
+      if (badge) badge.textContent = `${leads.length} đơn`;
+    }
+
+    function openModalById(id) {
+      const modal = document.getElementById(id);
+      if (!modal) return;
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      modal.classList.add('opacity-100', 'pointer-events-auto');
+      const card = modal.querySelector('.transform');
+      if (card) {
+        card.classList.remove('scale-95');
+        card.classList.add('scale-100');
+      }
+    }
+
+    function closeModalById(id) {
+      const modal = document.getElementById(id);
+      if (!modal) return;
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      modal.classList.remove('opacity-100', 'pointer-events-auto');
+      const card = modal.querySelector('.transform');
+      if (card) {
+        card.classList.add('scale-95');
+        card.classList.remove('scale-100');
+      }
+    }
+
+    function openGoogleSheetModal() {
+      updateSheetStatusDisplay();
+      openModalById('google-sheet-modal');
+    }
+
+    function closeGoogleSheetModal() {
+      closeModalById('google-sheet-modal');
+    }
+
+    function saveGoogleSheetUrl() {
+      const input = document.getElementById('sheet-url-input');
+      const feedback = document.getElementById('sheet-modal-feedback');
+      if (!input) return;
+      const url = input.value.trim();
+      if (!url) {
+        localStorage.removeItem('mazda_sheet_url');
+        if (feedback) {
+          feedback.textContent = "Đã xóa cấu hình URL.";
+          feedback.classList.remove('hidden', 'text-emerald-400');
+          feedback.classList.add('text-amber-400');
+        }
+      } else {
+        localStorage.setItem('mazda_sheet_url', url);
+        if (feedback) {
+          feedback.textContent = "✓ Đã lưu Web App URL thành công! Mọi lượt đăng ký mới sẽ gửi thẳng vào Google Sheet.";
+          feedback.classList.remove('hidden', 'text-amber-400');
+          feedback.classList.add('text-emerald-400');
+        }
+      }
+      updateSheetStatusDisplay();
+      setTimeout(() => {
+        if (feedback) feedback.classList.add('hidden');
+      }, 3000);
+    }
+
+    function copyAppsScriptCode() {
+      const snippet = document.getElementById('apps-script-snippet');
+      if (!snippet) return;
+      navigator.clipboard.writeText(snippet.textContent).then(() => {
+        alert("Đã sao chép mã Apps Script vào bộ nhớ tạm! Bạn chỉ cần mở Google Sheet > Extensions > Apps Script và dán vào.");
+      }).catch(() => {
+        alert("Vui lòng bôi đen và sao chép thủ công khối mã Apps Script.");
+      });
+    }
+
+    function openLeadsModal() {
+      renderLeadsTable();
+      openModalById('leads-view-modal');
+    }
+
+    function closeLeadsModal() {
+      closeModalById('leads-view-modal');
+    }
+
+    function renderLeadsTable() {
+      const tbody = document.getElementById('leads-table-body');
+      if (!tbody) return;
+      const leads = JSON.parse(localStorage.getItem('mazda_leads') || '[]');
+      if (leads.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" class="p-6 text-center text-gray-400 italic">Chưa có lượt đăng ký nào. Hãy thử nhập form bên ngoài!</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = leads.map((lead) => `
+        <tr class="hover:bg-white/5 transition">
+          <td class="p-3 text-gray-400 whitespace-nowrap">${lead.timestamp}</td>
+          <td class="p-3 font-semibold text-white">${lead.fullName}</td>
+          <td class="p-3 text-brand-redLight font-bold">${lead.phone}</td>
+          <td class="p-3 text-slate-300">${lead.carVersion}</td>
+          <td class="p-3 text-gray-400">${lead.city}</td>
+          <td class="p-3">
+            <span class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-bold">
+              ${lead.status || 'Đã lưu'}
+            </span>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function exportLeadsToCsv() {
+      const leads = JSON.parse(localStorage.getItem('mazda_leads') || '[]');
+      if (leads.length === 0) {
+        alert("Chưa có dữ liệu nào để xuất file!");
+        return;
+      }
+      let csvContent = "\uFEFFThời Gian,Họ Và Tên,Số Điện Thoại,Phiên Bản Xe,Tỉnh Thành,Trạng Thái\n";
+      leads.forEach(l => {
+        csvContent += `"${l.timestamp}","${l.fullName}","${l.phone}","${l.carVersion}","${l.city}","${l.status}"\n`;
+      });
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.setAttribute("href", url);
+      link.setAttribute("download", `mazda3_leads_${new Date().toISOString().slice(0, 10)}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function clearAllLeads() {
+      if (confirm("Bạn có chắc chắn muốn xóa tất cả lịch sử lưu trên trình duyệt?")) {
+        localStorage.removeItem('mazda_leads');
+        renderLeadsTable();
+        updateLeadsCountBadge();
+      }
+    }
+
+    function showSuccessModal(lead, isSheetSynced, sheetUrl) {
+      const nameElem = document.getElementById('success-modal-name');
+      const phoneElem = document.getElementById('success-modal-phone');
+      const verElem = document.getElementById('success-modal-version');
+      const cityElem = document.getElementById('success-modal-city');
+      const statusElem = document.getElementById('success-modal-sheet-status');
+
+      if (nameElem) nameElem.textContent = lead.fullName;
+      if (phoneElem) phoneElem.textContent = lead.phone;
+      if (verElem) verElem.textContent = lead.carVersion;
+      if (cityElem) cityElem.textContent = lead.city;
+
+      if (statusElem) {
+        if (sheetUrl) {
+          statusElem.className = "inline-flex items-center gap-1 text-[11px] font-bold text-emerald-400";
+          statusElem.innerHTML = `<i class="fa-solid fa-cloud-arrow-up"></i> Đã đồng bộ Google Sheets & Lưu máy`;
+        } else {
+          statusElem.className = "inline-flex items-center gap-1 text-[11px] font-bold text-amber-400";
+          statusElem.innerHTML = `<i class="fa-solid fa-hard-drive"></i> Đã lưu an toàn trên máy (Bấm "Cấu hình Google Sheet" để tự động đẩy)`;
+        }
+      }
+
+      openModalById('lead-success-modal');
+    }
+
+    function closeSuccessModal() {
+      closeModalById('lead-success-modal');
+    }
+
+    function showCustomToast(name, city, version) {
+      const toast = document.getElementById("sales-toast");
+      if (!toast) return;
+
+      const buyerElem = document.getElementById("toast-buyer");
+      const cityElem = document.getElementById("toast-city");
+      const actionElem = document.getElementById("toast-action");
+      const timeElem = document.getElementById("toast-time");
+
+      if (buyerElem) buyerElem.textContent = name;
+      if (cityElem) cityElem.textContent = city;
+      if (actionElem) {
+        actionElem.innerHTML = `Vừa đăng ký tư vấn lái thử thành công <strong class="text-brand-redLight font-semibold">${version}</strong>`;
+      }
+      if (timeElem) timeElem.innerHTML = `<i class="fa-solid fa-bolt text-emerald-400"></i> Vừa gửi ngay xong`;
+
+      toast.classList.remove("-translate-x-[120%]", "opacity-0");
+      toast.classList.add("translate-x-0", "opacity-100");
+
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        hideToast();
+      }, 5000);
+    }
+
+    async function handleLeadFormSubmit(e) {
+      e.preventDefault();
+
+      const nameInput = document.getElementById('customer-name');
+      const phoneInput = document.getElementById('customer-phone');
+      const verInput = document.getElementById('customer-version');
+      const cityInput = document.getElementById('customer-city');
+      const submitBtn = document.getElementById('submit-lead-btn');
+
+      if (!nameInput || !phoneInput) return;
+
+      const fullName = nameInput.value.trim();
+      const phone = phoneInput.value.trim();
+      const carVersion = verInput ? verInput.value : "Mazda 3 1.5L Luxury";
+      const city = cityInput ? cityInput.value : "Hà Nội";
+
+      if (!fullName || !phone) {
+        alert("Vui lòng nhập đầy đủ Họ tên và Số điện thoại!");
+        return;
+      }
+
+      // Trạng thái đang gửi
+      const originalBtnHtml = submitBtn.innerHTML;
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = `
+        <i class="fa-solid fa-circle-notch fa-spin text-base"></i>
+        <span>ĐANG LƯU DỮ LIỆU...</span>
+      `;
+
+      const timestamp = new Date().toLocaleString("vi-VN");
+      const leadData = {
+        id: Date.now(),
+        timestamp: timestamp,
+        fullName: fullName,
+        phone: phone,
+        carVersion: carVersion,
+        city: city,
+        status: "Mới đăng ký"
+      };
+
+      // 1. Lưu vào localStorage an toàn
+      const leads = JSON.parse(localStorage.getItem('mazda_leads') || '[]');
+      leads.unshift(leadData);
+      localStorage.setItem('mazda_leads', JSON.stringify(leads));
+      updateLeadsCountBadge();
+
+      // 2. Gửi vào Google Sheets qua Web App URL
+      const sheetUrl = getSheetUrl();
+      let sheetSuccess = false;
+
+      if (sheetUrl) {
+        try {
+          const formData = new FormData();
+          formData.append("timestamp", timestamp);
+          formData.append("fullName", fullName);
+          formData.append("phone", phone);
+          formData.append("carVersion", carVersion);
+          formData.append("city", city);
+
+          await fetch(sheetUrl, {
+            method: "POST",
+            mode: "no-cors",
+            body: formData
+          });
+          sheetSuccess = true;
+        } catch (err) {
+          console.warn("Lỗi đồng bộ Google Sheets:", err);
+        }
+      }
+
+      // Khôi phục nút
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = originalBtnHtml;
+
+      // Hiển thị modal thành công với dữ liệu chi tiết
+      showSuccessModal(leadData, sheetSuccess, sheetUrl);
+
+      // Kích hoạt ngay Toast góc trái dưới với tên khách hàng này
+      showCustomToast(fullName, city, carVersion);
+
+      // Reset form
+      document.getElementById('contactForm').reset();
+    }
+
+    function initLeadForm() {
+      const form = document.getElementById('contactForm');
+      if (form) {
+        form.addEventListener('submit', handleLeadFormSubmit);
+      }
+      updateSheetStatusDisplay();
+      updateLeadsCountBadge();
+    }
+
+    // Khởi chạy khi tài liệu tải xong
+    document.addEventListener("DOMContentLoaded", () => {
+      // Khởi tạo thư viện AOS (Animate On Scroll)
+      if (typeof AOS !== 'undefined') {
+        AOS.init({
+          duration: 800,
+          easing: 'ease-out-cubic',
+          once: true,
+          offset: 60
+        });
+      }
+      typeEffect();
+      updateCountdown();
+      initTheme();
+      initSalesNotification();
+      initLeadForm();
+    });
+  </script>
+
+</body>
+</html>
